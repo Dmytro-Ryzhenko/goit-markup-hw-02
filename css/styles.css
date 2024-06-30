@@ -34,9 +34,13 @@ a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.header-logo-black {
     color: #2e2f42;
 }
 
@@ -57,6 +61,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    font-style: normal
 }
 
 .header-address-link:hover {
@@ -72,6 +77,10 @@ a {
     text-decoration: underline;
 }
 
+.header-link-active:focus {
+    color: #404bbf;
+}
+
 
 /* ----- ----- */
 
@@ -84,7 +93,7 @@ a {
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -98,10 +107,15 @@ a {
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4d5ae5;
+    cursor: pointer;
 }
 
 .hero-btn:hover {
     background-color: #404bbf;
+}
+
+.hero-btn:focus {
+    background-color: #4d5ae5;
 }
 
 /** ----- ----- */
@@ -140,13 +154,16 @@ a {
 .team-title {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 
-.team-list {}
+.team-list {
+    background-color: #FFFFFF;
+}
 
 .team-item {}
 
@@ -178,10 +195,11 @@ a {
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .portfolio-list {}
@@ -198,7 +216,12 @@ a {
     color: #2e2f42;
 }
 
-.portfolio-item-text {}
+.portfolio-item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 
 /*? ----- ----- */
 
@@ -213,10 +236,16 @@ a {
         color: #f4f4fd;
 }
 
-.footer-logo {font-weight: 700;
+.footer-logo {
+    font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;}
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+}
 
+.footer-logo-white {
+    color: #f4f4fd;
+}
