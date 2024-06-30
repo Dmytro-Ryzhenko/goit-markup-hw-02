@@ -49,7 +49,7 @@ a {
     color: #2e2f42;
 }
 
-.header-menu-link:hover {
+.header-menu-link:hover, .header-menu-link:focus {
     color: #404bbf;
 }
 
@@ -69,14 +69,11 @@ a {
 }
 
 
-.header-link-active:active {
+.header-link-studio:active {
     color: #404bbf;
     text-decoration: underline;
 }
 
-.header-link-active:focus {
-    color: #404bbf;
-}
 
 
 /* ----- ----- */
